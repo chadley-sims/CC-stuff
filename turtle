@@ -1,5 +1,0 @@
-while true do
-local _,command=rednet.receive(1)
-local exec=loadstring(command)
-exec()
-end
